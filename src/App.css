@@ -55,3 +55,10 @@ button:active {
   color: #304F8C;
   transition-duration: 0s;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
