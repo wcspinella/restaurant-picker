@@ -1,13 +1,27 @@
 body {
   background-color: #308c8c;
+  margin: 0;
+  padding: 0;
 }
 
-.main-container {
+.main-tool {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  padding-top: 7rem;
+}
+
+.title {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  width: 100%;
+  text-align: center;
+  background-color: #BF5471;
+  margin: 0;
+  padding-bottom: 2rem;
 }
 
 h1 {

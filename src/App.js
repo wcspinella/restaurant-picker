@@ -17,10 +17,15 @@ function App() {
   // 4. Return some JSX with:
   //    - a button that triggers the function
   //    - something to display the result
-  <div className = "main-container">
-  <button onClick = {selectRestaurant}>Let's Eat</button>
-  <h1>Here's where you're eating:</h1>
-  <p>{selectedRestaurant}</p>
+
+  <div className = "container">
+    <h1 className = "title">PDX FOOD PICKER</h1>
+    
+    <div className = "main-tool">
+    <button onClick = {selectRestaurant}>Let's Eat</button>
+    <h1>Here's where you're eating:</h1>
+    <p>{selectedRestaurant}</p>
+    </div>
   </div>
   );
 }
