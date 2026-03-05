@@ -20,10 +20,9 @@ function App() {
 
   <div className = "container">
     <h1 className = "title">PDX FOOD PICKER</h1>
-    
     <div className = "main-tool">
     <button onClick = {selectRestaurant}>Let's Eat</button>
-    <h1>Here's where you're eating:</h1>
+    <h1 className = "final-result-prompt">Here's where you're eating:</h1>
     <p>{selectedRestaurant}</p>
     </div>
   </div>

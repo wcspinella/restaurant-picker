@@ -61,4 +61,8 @@ button:active {
   .title {
     font-size: 3.5rem;
   }
+  .final-result-prompt {
+    font-size: 1.75rem;
+    padding-top: 2rem;
+  }
 }
