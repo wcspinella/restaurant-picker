@@ -80,7 +80,7 @@ button:active {
   }
   .title {
     font-size: 2.5rem;
-    padding-left: 0;
+    padding-left: .25rem;
   }
   .final-result-prompt {
     font-size: 1.75rem;
