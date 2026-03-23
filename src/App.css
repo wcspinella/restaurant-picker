@@ -75,11 +75,22 @@ button:active {
 
 /* Mobile Adjustments */
 @media (max-width: 480px) {
+  p {
+    font-size: 2rem;
+  }
   .title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    padding-left: 0;
   }
   .final-result-prompt {
     font-size: 1.75rem;
     padding-top: 2rem;
+  }
+  .dollar-button-container {
+    gap: 2.5rem;
+  }
+  .dollar-button {
+    font-size: 2rem;
+    width: 6rem;
   }
 }
