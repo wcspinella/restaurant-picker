@@ -14,7 +14,6 @@ body {
 
 .title {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: 7rem;
   width: 100%;
@@ -22,6 +21,7 @@ body {
   background-color: #BF5471;
   margin: 0;
   padding-bottom: 2rem;
+  padding-left: 2.25rem;
 }
 
 h1 {
@@ -44,7 +44,6 @@ button {
   transition-duration: 0.4s;
   border: none;
 }
-
 button:hover {
   background-color: #304F8C;
   box-shadow: 0rem .3rem .9rem black;
@@ -54,6 +53,24 @@ button:active {
   background-color: rgb(227, 227, 227);
   color: #304F8C;
   transition-duration: 0s;
+}
+
+.dollar-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.dollar-button {
+  font-size: 8rem;
+  width: 17rem;
+}
+
+.dollar-button.active {
+  background-color: #304F8C;
 }
 
 /* Mobile Adjustments */
